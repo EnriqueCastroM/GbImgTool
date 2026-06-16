@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>x86</PlatformTarget>
+    <AssemblyName>GbImgTool</AssemblyName>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GunboundTools">
+      <HintPath>..\gunbound-image-creator\src\GunboundTools\bin\Release\GunboundTools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
